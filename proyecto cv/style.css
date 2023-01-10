@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Roboto;
+    background: rgb(235, 232, 227);
+}
+
+header{
+    width: 200px;
+    height: 1000px;
+    background: plum;
+}
+
+header img{
+    justify-content: center;
+}
