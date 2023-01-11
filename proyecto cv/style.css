@@ -1,18 +1,40 @@
 *{
-    margin: 0;
+    
 }
 
-body{
+#body{
     font-family: Roboto;
-    background: rgb(235, 232, 227);
+    background: white;
+    height: 842px;
+    /*width: 595px; /* to centre page on screen*/ 
+    margin-left: auto; 
+    margin-right: auto;
 }
 
-header{
-    width: 200px;
+.barra-izq{
+    width: 300px;
     height: 1000px;
-    background: plum;
+    float: left;
+    background: #f0bfc5;
 }
 
-header img{
-    justify-content: center;
+#photo{
+    float: center;
+}
+
+
+
+nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+  }
+
+footer{
+
+    background-color: #bb868c;
+    display: block;
+
 }
